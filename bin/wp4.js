@@ -29,7 +29,9 @@ if (program.init) {
         if(!err){
             // 可以输出一些项目成功的信息
             // chalk.blueBright()会将输出的文字转化为蓝色
-            console.info(chalk.blueBright('下载成功'));
+            console.info(chalk.blueBright('下载成功\n'),
+            chalk.red('如果你是一个女生，请添加微信号nnfh777进行深度交流！😊\n'),
+            chalk.yellow('如果你是一个男生——SORRY——当然你可以给微信号nnfh777转账20。😂'));
             process.exit();
         }else{
             // 可以输出一些项目失败的信息
